@@ -1,0 +1,33 @@
+body {
+  max-width: 940px;
+  background: aquamarine;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px
+}
+
+button {
+	font-family: 'interface', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	color:#fff;
+	background-color: palevioletred;
+	padding: 8.5px 16px;
+	margin: 2px;
+    border: none;
+}
+
+input[type=text] {
+    height: 50px;
+    color: black;
+}
+
+input[type=submit] {
+	height: 50px;
+	border: 1px solid plum;
+	color: purple;
+	background-color: plum;
+}
