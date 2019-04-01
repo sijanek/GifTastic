@@ -8,10 +8,33 @@ h1 {
     margin-right: 20px
 }
 
+#gif-container {
+	width: 70%
+}
+
+.gifDiv {
+	float: left;
+	padding: 10px;
+}
+form {
+	float: right;
+	width: 30%;
+	padding: 20px;
+  }
+
+  label {
+	display: block;
+	margin-bottom: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+  }
+  
+
 button {
 	font-family: 'interface', 'Helvetica Neue', sans-serif;
 	text-align: center;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 500;
 	color:#fff;
 	background-color: palevioletred;
@@ -20,13 +43,21 @@ button {
     border: none;
 }
 
-input[type=text] {
-    height: 50px;
+  
+
+input[type="text"] {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 15px;
+
     color: black;
 }
 
-input[type=submit] {
+input[type="submit"] {
 	height: 50px;
+	margin: 0 10px 10px 0;
+	font-size: 18px;
 	border: 1px solid plum;
 	color: purple;
 	background-color: plum;

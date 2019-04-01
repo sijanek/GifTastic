@@ -7,25 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GIPHY Generator</title>
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
+
+    <h1>GIFTastic!</h1>
+    <div id="button-container"></div>
+    <!--div id="topics-container"></div-->
     
-            <h1>GIFTastic!</h1>
-            <div id="button-container"></div>
-            
-            <div id="topics-container"></div>
-            <form id="topic-form">
-                <input type="text" id="topic-input" placeholder="Add a trending Gif...">
-                <button id="addTopic">Button element</button>
-            </form>
-        </div>
-        <div id="gif-container"></div>
+    <form id="topic-form">
+        <label for="topic-input">Add a trending Gif...</label>
+        <input type="text" id="topic-input" ><br>
+        <input id="addTopic" type="submit" value="Submit">
+    </form>
     
-    
+    <div id="gif-container"></div>
 
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 
 </body>
